@@ -1,5 +1,6 @@
 import React from 'react';
 import FriendListItem from "../FriendListItem";
+import '../FriendList/FriendList.css';
 
 
 const FriendList = ({ friends }) => (
@@ -15,6 +16,6 @@ const FriendList = ({ friends }) => (
             ))
         }
     </ul>
-);
+)
 
 export default FriendList;

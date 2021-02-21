@@ -1,5 +1,6 @@
 import React from "react";
 import StatItem from '../StatItem';
+import '../Statistics/Statistics.css';
 
 const Statistics = ({ title, stats}) => (
     <section className="statistics">

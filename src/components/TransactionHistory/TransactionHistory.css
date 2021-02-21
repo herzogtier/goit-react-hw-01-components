@@ -1,0 +1,35 @@
+.transaction-history {
+    width: 100%;
+    font-size: 12px;
+    color: #333333;
+    border-width: 1px;
+    border-color: #a9a9a9;
+    border-collapse: collapse;
+}
+
+.transaction-history th {
+    font-size: 12px;
+    background-color: Silver;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9a9a9;
+    text-align: left;
+}
+.transaction-history tr {
+    background-color: Gainsboro;
+}
+.transaction-history td {
+    font-size: 12px;
+    border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #a9a9a9;
+}
+
+/* style type="text/css">
+.sl {}
+.sl th {font-size:12px;background-color:Silver;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;text-align:left;}
+.sl tr {background-color:Gainsboro;}
+.sl td {font-size:12px;border-width: 1px;padding: 8px;border-style: solid;border-color: #a9a9a9;}
+</style> */

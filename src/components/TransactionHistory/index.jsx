@@ -1,5 +1,6 @@
 import React from 'react';
 import TransactionItem from "../TransactionItem";
+import '../TransactionHistory/TransactionHistory.css'
 
 
 const TransactionHistory = ({ items }) => (
@@ -25,7 +26,7 @@ const TransactionHistory = ({ items }) => (
                 }
             </tbody>
         </table>
-);
+)
 
 
 export default TransactionHistory;

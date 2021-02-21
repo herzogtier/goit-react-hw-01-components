@@ -1,0 +1,22 @@
+/* box-shadow:4px 5px 8px 0px rgba(0,0,0,0.43); */
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 4px 5px 8px 0px rgb(0 0 0 / 43%);
+    border-radius: 3px;
+}
+.is-online {
+    width: 20px;
+    height: 20px;
+    background-color: yellowgreen;
+    border-radius: 50%;
+}
+
+.is-offline {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
